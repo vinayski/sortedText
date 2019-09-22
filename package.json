@@ -21,7 +21,7 @@
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev",
     "rbp":  "rollup -c && npm run spub && npm run slist",
-    "spub":  "bash -c 'surge public fx247.surge.sh && surge public fx247.sankhe.com'",
-    "slist": "bash -c 'surge list'"
+    "spub":  "bash -c 'sudo surge public sortedstr.surge.sh && sudo surge public sort.sankhe.com'",
+    "slist": "bash -c 'sudo surge list'"
   }
 }
