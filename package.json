@@ -15,7 +15,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "bash -c 'sudo surge --project ./ --domain sortedstr.surge.sh'"
+      "pre-push": "bash -c 'sudo surge --project ./ --domain sortedstr.surge.sh && sudo surge public sort.sankhe.com '"
     }
   },
   "dependencies": {
